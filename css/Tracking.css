@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    /* overflow: hidden; */
+}
+
+.footer-icons {
+    color: rgb(241, 16, 16);
+    font-size: 2.5rem;
+    justify-content: center;
+}
+.container {
+    background:url('/images/banner2.jpeg') ;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:#fff;
+    font-size: medium;
+    border-bottom: 0.5px solid white;
+}
+.div1:hover {
+    transition: 1s;
+    color: rgb(10, 10, 94);
+    cursor: pointer;
+}
+
+.div2 {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.nav {
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav:hover {
+    transition:1s;
+    color: rgb(158, 22, 22);
+}
+.button {
+    font-size: medium;
+    background-color: red;
+    color: wheat;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    transition: 2s;
+    background-color: blue;
+}
+.red-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder ;
+}
+
+.section {
+    position: absolute;
+    top: 230px;
+    font-size: 2rem;
+    right: 50%;
+    transform: translate(50%, 50%);
+    color: #fff;
+}
+.main > h1 {
+    font-size: 3rem;
+}
+
+.tracking {
+    width: 100%;
+    height: 70vh;
+    padding: 30px;
+}
+.hone {
+    color: rgb(3, 3, 36);
+    font-size: 2.5rem;
+}
+.number {
+    width: 40%;
+    height: 40px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.trackin-button {
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: red;
+}
+.trackin-button:hover {
+    width: 20.5%;
+    cursor: pointer;
+}
+.blu {
+    background-color: rgb(21, 21, 77);
+    width: 100%;
+    height: 90vh;
+}
+
+.location {
+    display: flex;
+    margin: 60px;
+    border-bottom: 0.5px solid #fff;
+}
+.support {
+    text-decoration: none;
+    color: white;
+}
+.support:hover {
+    color: red;
+}
+.map {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 80%;
+    color: #fff;
+    padding: 40px;
+}
+.map2:hover {
+    color: red;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.ending {
+    color: #fff;
+    display: flex;
+    margin: 60px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid wheat;
+    height: 30vh;
+}
+.supply {
+    width: 50%;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.anchor {
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+

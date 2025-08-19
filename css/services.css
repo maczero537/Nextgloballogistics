@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(27, 8, 8, 0.199);
+}
+.homebutton {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* end */
+.navyblue {
+    background-color: rgb(21, 21, 77);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.location {
+    display: flex;
+    padding: 30px;
+    margin: 40px;
+    border-bottom: 0.5px solid #fff;
+}
+.map {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    width: 500px;
+    
+}
+.support {
+    text-decoration: none;
+    color: #fff;
+}
+.support:hover {
+    color: red;
+}
+
+.map2:hover {
+    color: red;
+    cursor: pointer;
+}
+.ending {
+    color: #fff;
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid;
+    height: 30vh;
+}
+.supply {
+    width: 600px;
+}
+.about {
+    display: flex;
+    flex-flow: column;
+}
+.anchor {
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    height: 5vh;
+    color: #fff;
+    text-align: center;
+}

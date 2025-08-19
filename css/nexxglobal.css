@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.background {
+    background-image: url(power.jpeg);
+    height: 90vh;
+}
+
+#number {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(199, 147, 147);
+    font-weight: bolder;
+}
+
+#number:hover {
+    color: rgb(27, 27, 179);
+}
+
+.nexx {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    margin-top: 0px;
+    padding: 10px;
+
+}
+
+.line {
+    gap: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.anchor {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: red;
+}
+
+.anchor1 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.anchor1:hover {
+    background-color: blue;
+}
+
+.the-new {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.orange {
+    background-color: orangered;
+    color: white;
+    width: 130px;
+    height: 30px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.red {
+    color: orangered;
+    width: 130px;
+    height: 30px;
+    font-weight: 600;
+}
+
+.orange:hover {
+    background-color: white;
+    color: black;
+}
+
+.red:hover {
+    color: black;
+}
+
+.services {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    /* margin: 150px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 450px;
+
+}
+
+.services>div {
+    background-color: white;
+    box-shadow: 2px 2px 3px grey;
+    width: 280px;
+    height: 220px;
+    padding: 20px;
+
+}
+
+.about {
+    background-color: white;
+}
+
+#white {
+    width: 500px;
+    margin: 20px;
+}
+
+#years {
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.design {
+    padding: 10px;
+    width: 400px;
+    border-bottom: 0.5px grey;
+
+}
+
+.section {
+    width: 70%;
+    display: flex;
+    margin: 100px;
+    padding: 10px;
+    margin-top: 190px;
+    justify-content: right;
+
+}
+
+.blu {
+    width: 50%;
+    margin: 50px;
+    padding: 10px;
+}
+
+.experience {
+    background-color: white;
+    text-align: center;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    position: absolute;
+    top: 1100px;
+    font-weight: 1000;
+
+
+}
+
+.next {
+    background-color: red;
+    color: white;
+    font-weight: 5rem;
+    font-size: larger;
+    width: 40%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business {
+    background-image: url(truck.jpeg);
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.box img:hover {
+    cursor: pointer;
+    border-bottom: 2px solid red;
+    transition: 0.3 ease in;
+}
+
+
+#text {
+    margin-top: 200px;
+}
+
+.review {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
+
+#view {
+    display: flex;
+    width: 50%;
+    flex-flow: column;
+    padding: 0px 80px;
+}
+
+.proper {
+    width: 50%;
+    /* margin-top: 110px; */
+
+}
+
+.boxvalue {
+    position: absolute;
+    width: 300px;
+    /* height: 300px; */
+    right: 395px;
+    top: 2330px;
+    box-shadow: 0 0 10px 0 black;
+    padding: 10px;
+    background-color: white;
+}
+
+.value {
+    background-color: white;
+    padding: 10px;
+    border: 1px dashed red;
+}
+
+.inspiration {
+    background-color: rgb(25, 25, 124);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+}
+
+.tested {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2opx;
+    position: absolute;
+    top: 2700px;
+}
+
+.testimony {
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+    width: 280px;
+    height: 200px;
+    box-shadow: 2px 2px 3px rgb(230, 223, 223);
+    border-bottom: 3px solid red;
+}
+
+#joe {}
+
+#emptybox {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+
+.mother {
+    background-image: url(pexels-umkreisel-app-956999.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.parent {
+    background-color: white;
+    width: 90%;
+    height: 400px;
+    margin: 70px;
+    padding: 30px;
+    position: absolute;
+    display: flex;
+}
+
+.page {
+    width: 40%;
+}
+
+.color {
+    background-color: red;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.learn {
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+}
+
+#girl {
+    margin: 30px;
+}
+
+.ending {
+    background-color: rgb(6, 6, 59);
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+}
+
+.location {
+    color: white;
+    display: flex;
+    width: 1050px;
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 0.5px solid white;
+    margin: 100px;
+
+}
+
+.last-session {
+    color: white;
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border-bottom: 0.5px solid white;
+    margin: 100px;
+}
+
+
+.ending>p {
+    text-align: center;
+    top: 50px;
+    color: white;
+}
+
+.width {
+    width: 400px;
+    display: flex;
+}
+
+#demi {
+    display: flex;
+    width: 500px;
+    gap: 30px;
+}
+
+.god {
+    list-style: none;
+    color: red;
+}
+
+.randy {
+    text-decoration: none;
+    color: white;
+}
