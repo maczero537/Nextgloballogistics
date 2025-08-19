@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-icons {
+    color: rgb(241, 25, 25);
+    font-size: 2.5rem;
+    justify-content: center;
+}
+.mainContent{
+    background: url(/images/power.jpeg);
+    width: 100%;
+    height: 70vh;
+}
+.phoneNumber {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px;
+    
+}
+.phoneNumber:hover {
+    cursor: pointer;
+    color: rgb(16, 16, 121);
+    transition: 2s;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.anchor {
+    color: aliceblue;
+    text-decoration: none;
+}
+.anchor:hover {
+    color: red;
+    transition: 1.5s;
+}
+.button {
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+.button:hover {
+    cursor: pointer;
+    width: 121px;
+    background-color: blue;
+}
+.newLog {
+    color: aliceblue;
+    text-align: center;
+}
+
+.duoButton{
+    text-align: center;
+}
+.orangeButton {
+    text-decoration: none;
+    color: aliceblue;
+}
+.whiteButton {
+    text-decoration: none;
+    /* background-color: aliceblue; */
+    color: black;
+}
+#redwhite {
+    width: 120px;
+    height:35px;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+}
+#redwhite:hover {
+    width: 125px;
+}
+
+.services {
+    width: 100%;
+    height: 200px;
+}
+.insights{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 340px;
+}
+.boxes {
+    width: 250px;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 3px grey;
+}
+.years {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.about {
+    width: 30%;
+}
+.experience {
+    background-color: aliceblue;
+    width: 28%;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    top: 1050px;
+    right: 450px;
+}
+.next {
+    width: 100px;
+    color: aliceblue;
+    background-color: red;
+
+}
+.motp {
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    height: 80vh;
+    background: url(/images/BG.jpg);
+}
+.boxpic {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+
+}
+.picture {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    /* box-shadow: 2px 2px 3px; */
+}
+
+.picture>img {
+    border-bottom: 3px solid red;
+}
+
+.means {
+    position: absolute;
+    font-weight: 600;
+    color: wheat;
+}
+.view {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    width: 35%;
+}
+.boxvalue {
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 black;
+    right: 395px;
+    top: 2110px;
+}
+.value {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px dashed red;
+}
+
+.inspiration {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(7, 7, 92);
+    color: #fff;
+}
+.tested {
+    width: 100%;
+    height: 70vh;
+}
+.testimony {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    top: 2520px;
+}
+.testbox {
+    margin: 30px;
+    box-shadow: 2px 2px 3px gray;
+    width: 250px;
+    height: 380px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.learnMore {
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+    height: 80vh;
+    display: flex;
+}
+.trust {
+    width: 530px;
+    padding: 20px;
+}
+.trust>button {
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.learn {
+    color: #fff;
+    text-decoration: none;
+}
+.supervisor {
+    width: 100%;
+    height: 60vh;
+}
+.navyblue {
+    background-color: rgb(21, 21, 77);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.location {
+    display: flex;
+    padding: 30px;
+    margin: 40px;
+    border-bottom: 0.5px solid #fff;
+}
+.map {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    width: 500px;
+    
+}
+.support {
+    text-decoration: none;
+    color: #fff;
+}
+.support:hover {
+    color: red;
+}
+
+.map2:hover {
+    color: red;
+    cursor: pointer;
+}
+.ending {
+    color: #fff;
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid;
+    height: 30vh;
+}
+.supply {
+    width: 600px;
+}
+.about {
+    display: flex;
+    flex-flow: column;
+}
+.anchor {
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    height: 5vh;
+    color: #fff;
+    text-align: center;
+}
+
+
+
